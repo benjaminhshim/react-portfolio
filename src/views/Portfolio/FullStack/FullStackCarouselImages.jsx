@@ -23,8 +23,8 @@ class FullStackCarouselImages extends React.Component {
       autoplay: false
     };
     return (
-      <div style={{borderRadius: "6px", marginTop: "25px"}}>
-        <div style={{borderRadius: "6px"}}>
+      <div style={{borderRadius: "6px", marginTop: "25px", paddingBottom: "-25px"}}>
+        <div style={{borderRadius: "6px", paddingBottom: "-25px"}}>
           <GridContainer>
             <GridItem>
               <Card carousel>

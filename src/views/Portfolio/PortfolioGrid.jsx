@@ -49,10 +49,10 @@ class PortfolioGrid extends React.Component {
                             <KindaNeatModal />
                             <div id="kinda-neat-stats">
                               <h5>
-                                  250,000 subscribers
+                                  260,000 subscribers
                               </h5>
                               <h5>
-                                  65,000,000 views
+                                  70,000,000 views
                               </h5>
                             </div>
                             <KindaNeatSocials />

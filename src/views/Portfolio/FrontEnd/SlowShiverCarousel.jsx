@@ -22,7 +22,7 @@ class SlowShiverCarousel extends React.Component {
       autoplay: false
     };
     return (
-      <div style={{borderRadius: "6px", marginTop: "25px"}}>
+      <div style={{borderRadius: "6px", marginTop: "25px", marginBottom: "-25px"}}>
         <div style={{borderRadius: "6px"}}>
           <GridContainer>
             <GridItem>

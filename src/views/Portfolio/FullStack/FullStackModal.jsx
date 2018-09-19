@@ -115,7 +115,8 @@ class FullStackModal extends React.Component {
                                                 item1src={this.props.item1src}
                                                 item2src={this.props.item2src}
                                                 item3src={this.props.item3src}
-
+                                                item4src={this.props.item4src}
+                                                item5src={this.props.item5src}
                                                 />
                             
                                         </div> 
@@ -127,7 +128,7 @@ class FullStackModal extends React.Component {
                                     >
                                         <div>
                                             <h3><strong>{this.props.title}</strong></h3>
-                                            <h5><em>Full Stack Application</em></h5>
+                                            <h5><em>Full Stack Web Application</em></h5>
                                             <hr />
                                             <h5>{this.props.info}</h5>
                                             <h5><strong>Role:</strong> {this.props.role}</h5>

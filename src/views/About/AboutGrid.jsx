@@ -81,12 +81,12 @@ class About extends React.Component {
                 <br />
   
                 {/* He is also a musician, content creator and digital media producer specializing in music and audio for short-form visual content. */}
-                Why? After working in the entertainment industry creating content, he now looks to create a new type of product leveraging a coding skill set gained from UCLA Extension's Coding Bootcamp and 1000+ hours of practice. He specializes in the MERN stack with his strengths in JavaScript for both front end and back end development.
+                Why? After working in the entertainment industry creating content, he now looks to create a new type of product leveraging a coding skill set gained from UCLA Extension's Coding Bootcamp. He specializes in the MERN stack with his strengths in JavaScript for both front-end and back-end development.
                 <br />
                 <br />
   
                 {/* He spends his spare time producing content for his podcast and YouTube channel, Kinda Neat, which has amassed over 250,000 subscribers and 60 million views to-date. Subscribe <a href="https://youtube.com/kindaneat" target="_blank">here</a>. */}
-                On his free time, he works on his YouTube channel which has accumulated over 250,000 subscribers and 65 million views to date. Check it out <a href="https://youtube.com/kindaneat" target="_blank">here</a>.
+                On his free time, he works on his YouTube channel which has accumulated over 260,000 subscribers and 70 million views to date. Check it out <a href="https://youtube.com/kindaneat" target="_blank">here</a>.
                 <br />
                 <br />
                 </p>

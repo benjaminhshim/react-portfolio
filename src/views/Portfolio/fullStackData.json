@@ -1,5 +1,21 @@
 [
     {
+        "name": "astrolab-web",
+        "type": "coming-soon",
+        "src": "astrolab-web.png",
+        "info": "Yelp meets TripAdvisor meets Augmented Reality--built with React.js, Node.js, Express.js, MongoDB & Mongoose.",
+        "href": "http://astrolab-web.herokuapp.com/",
+        "github": "https://github.com/benjaminhshim/Astrolab-Web",
+        "title": "Astrolab",
+        "details": "Full Stack Application (Mobile with React Native currently in production)",
+        "role": "Full Stack Developer",
+        "item1src": "astrolab-sign-up.png",
+        "item2src": "astrolab-1.png",
+        "item3src": "astrolab-home.png",
+        "item4src": "astrolab-bookmarks.png",
+        "item5src": "astrolab-3.png"
+    },
+    {
         "name": "scrapebeast",
         "type": "fullstack",
         "src": "scrapebeast.png",
@@ -8,7 +24,7 @@
         "github": "https://github.com/benjaminhshim/Scrapebeast",
         "title": "Scrapebeast",
         "description": " | Web scraping application",
-        "role": "Full Stack Developer | Independent",
+        "role": "Full Stack Developer",
         "frontend": "HTML, CSS, JavaScript & jQuery",
         "backend": "Node.js, Express.js, MongoDB & Mongoose",
         "item1src": "scrapebeast-1.png",
@@ -24,27 +40,11 @@
         "github": "https://github.com/celsooliveiraTBDE/canvas-drnx",
         "title": "Canvas",
         "description": " | Fundraising application",
-        "role": "Full Stack Developer | Team member",
+        "role": "Full Stack Developer",
         "frontend": "HTML, CSS, JavaScript & jQuery",
         "backend": "Node.js, Express.js, MySQL & Sequelize",
         "item1src": "canvas-1.png",
         "item2src": "canvas-2.png",
         "item3src": "canvas-3.png"
-    },
-    {
-        "name": "reactband",
-        "type": "fullstack",
-        "src": "reactband.png",
-        "info": "A music video and tour date search application built with React.js, Node.js, Express.js, MongoDB & Mongoose.",
-        "href": "https://afternoon-lake-49848.herokuapp.com/",
-        "github": "https://github.com/benjaminhshim/nytreact",
-        "title": "Reactband",
-        "description": " | Music video and tour date search application",
-        "role": "Full Stack Developer | Independent",
-        "frontend": "React.js",
-        "backend": "Node.js, Express.js, MongoDB & Mongoose",
-        "item1src": "reactband.png",
-        "item2src": "reactband-1.png",
-        "item3src": "reactband-2.png"
     }
 ]

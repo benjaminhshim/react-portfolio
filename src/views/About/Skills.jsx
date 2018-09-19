@@ -13,7 +13,12 @@ import InfoArea from "components/InfoArea/InfoArea.jsx";
 
 import productStyle from "assets/jss/material-kit-react/views/landingPageSections/productStyle.jsx";
 
+import skillsIcons from './skills.json';
+
 class Skills extends React.Component {
+  state = {
+
+  }
   render() {
     const { classes } = this.props;
     return (
@@ -37,6 +42,11 @@ class Skills extends React.Component {
                 iconColor="info"
                 vertical
               />
+              {/* <img className="skills-icon" src={require(`../../assets/img/icons/html-icon.png`)}/>
+              <img className="skills-icon" src={require(`../../assets/img/icons/css-icon.png`)}/>
+              <img className="skills-icon" src={require(`../../assets/img/icons/javascript-icon.png`)}/>
+              <img className="skills-icon" src={require(`../../assets/img/icons/react-icon.png`)}/>
+              <img className="skills-icon" src={require(`../../assets/img/icons/jquery-icon.png`)}/> */}
             </GridItem>
             <GridItem xs={12} sm={4} md={4}>
               <InfoArea
@@ -46,6 +56,10 @@ class Skills extends React.Component {
                 iconColor="info"
                 vertical
               />
+
+              {/* <img className="skills-icon" src={require(`../../assets/img/icons/node-icon.png`)}/>
+              <img className="skills-icon" src={require(`../../assets/img/icons/mysql-icon.png`)}/>
+              <img className="skills-icon" src={require(`../../assets/img/icons/mongo-icon.png`)}/> */}
             </GridItem>
             <GridItem xs={12} sm={4} md={4}>
               <InfoArea

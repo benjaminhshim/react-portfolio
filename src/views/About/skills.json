@@ -1,6 +1,7 @@
 [
     {
-        "name": "HTML"
+        "name": "HTML",
+        "src": "html-icon.png"
     },
     {
         "name": "CSS"

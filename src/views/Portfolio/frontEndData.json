@@ -1,19 +1,21 @@
 [
     {
-        "name": "astrolab-web",
-        "type": "coming-soon",
-        "src": "astrolab-web.png",
-        "info": "Yelp meets TripAdvisor meets Augmented Reality--built with React.js, Node.js, Express.js, MongoDB & Mongoose.",
-        "href": "http://astrolab-web.herokuapp.com/",
-        "github": "https://github.com/benjaminhshim/Astrolab-Web",
-        "title": "Astrolab",
-        "details": "Full Stack Application (Mobile with React Native currently in production)",
-        "role": "Full Stack Developer | Team Lead",
-        "item1src": "astrolab-sign-up.png",
-        "item2src": "astrolab-1.png",
-        "item3src": "astrolab-home.png",
-        "item4src": "astrolab-bookmarks.png",
-        "item5src": "astrolab-3.png"
+        "name": "reactband",
+        "type": "fullstack",
+        "src": "reactband-3.png",
+        "info": "A music video and tour date search application built with React.js, Node.js, Express.js, MongoDB & Mongoose.",
+        "href": "https://afternoon-lake-49848.herokuapp.com/",
+        "github": "https://github.com/benjaminhshim/nytreact",
+        "title": "Reactband",
+        "description": " | Music video and tour date search application",
+        "role": "Full Stack Developer",
+        "frontend": "React.js",
+        "backend": "Node.js, Express.js, MongoDB & Mongoose",
+        "item1src": "reactband.png",
+        "item2src": "reactband-4.png",
+        "item3src": "reactband-1.png",
+        "item4src": "reactband-5.png",
+        "item5src": "reactband-3.png"
     },
     {
         "name": "slowshiver",
@@ -24,7 +26,7 @@
         "github": null,
         "title": "Slow Shiver/Valente Bertelli",
         "details": "Website",
-        "role": "Front End Developer | Independent",
+        "role": "Front End Developer",
         "item1src": "slowshiver-1.png",
         "item2src": "slowshiver-5.png",
         "item3src": "slowshiver-2.png",
@@ -34,16 +36,18 @@
     {
         "name": "valente",
         "type": "fullstack",
-        "src": "valente-catalog.png",
+        "src": "valente.png",
         "info": "A catalog of a composer's cues + an online service built with React.js, Node.js, Express.js, MongoDB & Mongoose.",
         "href": null,
         "github": null,
         "title": "Valente Bertelli Composer Catalog",
         "details": "Full Stack Application (In production)",
-        "role": "Full Stack Developer | Independent",
+        "role": "Full Stack Developer",
         "item1src": false,
         "item2src": false,
-        "item3src": false
+        "item3src": false,
+        "item4src": "valente-1.png",
+        "item5src": "valente-2.png"
     }
 
 ]
