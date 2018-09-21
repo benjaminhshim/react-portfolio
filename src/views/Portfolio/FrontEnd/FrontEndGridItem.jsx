@@ -79,7 +79,7 @@ class FrontEndGridItem extends Component {
       <div>
           <div className="frontend-card-front">
         <Paper>
-            <div className="carousel-img" style={{borderRadius: "3px", border: "1px solid red"}}>
+            <div className="carousel-img" style={{borderRadius: "3px"}}>
                 <img             
                     style={{height: "200px", width: "100%", borderRadius: "3px"}}
                     src={require(`assets/img/${this.props.src}`)}

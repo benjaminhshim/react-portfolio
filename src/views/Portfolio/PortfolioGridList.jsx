@@ -17,6 +17,7 @@ import mobileData from './Mobile/mobile.json';
 import FrontEndImage from './FrontEnd/FrontEndImage';
 import XXLImage from './FrontEnd/XXLImage';
 
+import './Portfolio.css';
 
 function Transition(props) {
     return <Slide direction="down" {...props} />;
