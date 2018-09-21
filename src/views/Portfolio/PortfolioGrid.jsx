@@ -25,7 +25,7 @@ class PortfolioGrid extends React.Component {
   render() {
     const { classes } = this.props;
     return (
-      <div className={classes.section}>
+      <div className={classes.section} id="portfolio-main">
         <div className={classes.container}>
           <div id="nav-tabs">
             <h2 className="portfolio-header">Projects</h2>

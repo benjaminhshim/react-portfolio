@@ -20,6 +20,9 @@ import javascriptStyles from "assets/jss/material-kit-react/views/componentsSect
 import FullStackCarouselImages from './FullStackCarouselImages.jsx';
 import './CarouselFullStack.css';
 
+import Fade from 'react-reveal/Fade';
+
+
 
 function Transition(props) {
   return <Slide direction="down" {...props} />;
@@ -126,12 +129,13 @@ class FullStackModal extends React.Component {
                                         id="classic-modal-slide-description"
                                         className={classes.modalBody}
                                     >
-                                        <div>
+                                        <Fade bottom>
+                                        <div className="modal-body-content">
                                             <h3><strong>{this.props.title}</strong></h3>
-                                            <h5><em>Full Stack Web Application</em></h5>
+                                            <h5>{this.props.role}</h5>
                                             <hr />
                                             <h5>{this.props.info}</h5>
-                                            <h5><strong>Role:</strong> {this.props.role}</h5>
+                                            {/* <h5><strong>Role:</strong> {this.props.role}</h5> */}
                                             {/* <h5><strong>Front-End:</strong> {this.props.frontend}</h5>
                                             <h5><strong>Back-End:</strong> {this.props.backend}</h5> */}
 
@@ -151,6 +155,7 @@ class FullStackModal extends React.Component {
                                                 </p> 
                                             }
                                         </div>
+                                        </Fade>
                                     </DialogContent>
                                 </Dialog>
                             </GridItem>

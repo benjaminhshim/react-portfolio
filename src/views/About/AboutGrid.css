@@ -4,13 +4,28 @@
     /* margin-bottom: -450px; */
     /* border: 1px solid red; */
     overflow: auto;
+    font-family: "Avenir";
 }
 
 .about-header {
     text-align: center;
+    font-family: "Avenir Next";
+    font-size: 30px;
     /* margin-bottom: -50px; */
 }
 
+.about-grid h2 {
+    font-size: 30px;
+    font-family: "Avenir Next";
+
+}
+.about-grid h5 {
+    font-family: "Avenir Next";
+}
+
+.about-grid p {
+    font-size: 15px;
+}
 /* #about-body {
     margin-bottom: 50px;
 } */
@@ -26,6 +41,7 @@ p a:hover {
     max-width: 50px;
     max-height: 50px;
 }
+
 
 
 @media only screen and (max-width: 967px) {

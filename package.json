@@ -41,6 +41,7 @@
     "radium": "^0.24.1",
     "react-animations": "^1.0.0",
     "react-flipcard": "^0.2.1",
+    "react-reveal": "^1.2.2",
     "reactstrap": "^6.3.0"
   }
 }

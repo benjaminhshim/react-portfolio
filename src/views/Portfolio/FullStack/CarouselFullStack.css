@@ -54,3 +54,8 @@
     background: teal;
     color: white;
   }
+
+  .modal-body-content {
+    font-family: "Avenir" !important;
+
+  }

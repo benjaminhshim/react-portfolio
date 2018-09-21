@@ -1,11 +1,20 @@
+#portfolio-main {
+    height: auto;
+    overflow: none;
+}
 .portfolio-header {
     text-align: center;
+    font-family: "Avenir Next";
+    font-size: 30px;
 }
 
 .portfolio-grid {
     margin-top: 75px;
-    height: calc(100vh - 290px);
+    min-height: calc(100vh - 280px);
+    max-height: auto;
+    font-family: "Avenir";
 }
+
 .fullstack-grid {
     margin-bottom: -75px !important;
 }
@@ -28,6 +37,10 @@
 
 #kinda-neat h3 {
     line-height: 1;
+}
+
+.fullstack-card-front {
+    font-family: "Avenir";
 }
 
 @media only screen and (max-width: 1200px) {
