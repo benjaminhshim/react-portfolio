@@ -133,24 +133,26 @@ class XXLImage extends React.Component {
                                                 id="classic-modal-slide-description"
                                                 className={classes.modalBody}
                                             >
-                                                <div>
-                                                    <h3><strong>{this.props.title}</strong></h3>
-                                                    <h5>{this.props.role}</h5>
+                                                <div className="modal-body-content" id="xxl-modal-body" style={{fontFamily: "Avenir"}}>
+                                                    <h3 style={{fontFamily: "inherit"}}><strong>{this.props.title}</strong></h3>
+                                                    <h5 style={{fontFamily: "inherit"}}><em>{this.props.role}</em></h5>
 
                                                     <hr />
-                                                    <h5>{this.props.info}</h5>
+                                                    <h5 style={{fontFamily: "inherit", fontSize: "14px"}}>{this.props.info}</h5>
                                                     {/* <h5><strong>Role:</strong> {this.props.role}</h5> */}
 
-                                                    <p style={{float: "right"}}>
-                                                        <a 
-                                                            href={this.props.href} 
-                                                            target="_blank"
-                                                            style={{color: "teal", fontWeight: '900'}}>
-                                                            <Button color="info">
-                                                            View Site
-                                                            </Button>
-                                                        </a>
-                                                    </p>
+                                                    {this.props.href !== null && 
+                                                        <p style={{float: "right"}}>
+                                                            <a 
+                                                                href={this.props.href} 
+                                                                target="_blank"
+                                                                style={{color: "teal", fontWeight: '900', fontFamily: "Avenir"}}>
+                                                                <Button color="info">
+                                                                View Site
+                                                                </Button>
+                                                            </a>
+                                                        </p>
+                                                    }
 
                                                     {this.props.github !== null &&
                                                         <p style={{float: "right"}}>
@@ -159,6 +161,13 @@ class XXLImage extends React.Component {
                                                             </a>
                                                         </p> 
                                                     }
+
+                                                    {this.props.github === null && this.props.href === null &&
+                                                        <p style={{float: "right"}}>
+                                                            <a target="_blank">
+                                                                <Button color="info">Coming Soon</Button>
+                                                            </a>
+                                                        </p>                                                     }
                                                     
                                                 </div>
                                             </DialogContent>

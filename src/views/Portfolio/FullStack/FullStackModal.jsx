@@ -130,25 +130,25 @@ class FullStackModal extends React.Component {
                                         className={classes.modalBody}
                                     >
                                         <Fade bottom>
-                                        <div className="modal-body-content">
-                                            <h3><strong>{this.props.title}</strong></h3>
-                                            <h5>{this.props.role}</h5>
+                                        <div className="modal-body-content" style={{fontFamily: "Avenir"}}>
+                                            <h3 style={{fontFamily: "inherit"}}><strong>{this.props.title}</strong></h3>
+                                            <h5 style={{fontFamily: "inherit"}}><em>{this.props.role}</em></h5>
                                             <hr />
-                                            <h5>{this.props.info}</h5>
+                                            <h5 style={{fontFamily: "inherit", fontSize: "14px"}}>{this.props.info}</h5>
                                             {/* <h5><strong>Role:</strong> {this.props.role}</h5> */}
                                             {/* <h5><strong>Front-End:</strong> {this.props.frontend}</h5>
                                             <h5><strong>Back-End:</strong> {this.props.backend}</h5> */}
 
                                             
                                                 <p style={{float: "right"}}>
-                                                    <a href={this.props.href} target="_blank">
+                                                    <a href={this.props.href} target="_blank" style={{fontFamily: "Avenir"}}>
                                                         <Button color="info">View Site</Button>
                                                     </a>
                                                 </p> 
                                             
                                             
                                             {this.props.github !== null &&
-                                                <p style={{float: "right"}}>
+                                                <p style={{float: "right", fontFamily: "Avenir"}}>
                                                     <a href={this.props.github} target="_blank">
                                                         <Button color="info">View Repo</Button>
                                                     </a>

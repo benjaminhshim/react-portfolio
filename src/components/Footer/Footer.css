@@ -3,6 +3,11 @@ footer a:hover {
     cursor: pointer;
 }
 
+/* footer a, */
+.footer-right {
+    font-family: "Avenir";
+}
+
 @media only screen and (max-width: 768px) {
     .Footer-footer-443 {
         clear: both;

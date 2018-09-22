@@ -23,6 +23,7 @@
 #kinda-neat {
     margin-top: 25px;
     text-align: center;
+    font-family: "Avenir";
     /* width: 35%;
     height: 35%; */
     /* margin-bottom: -40px; */
@@ -43,6 +44,10 @@
 
 .fullstack-card-front {
     font-family: "Avenir";
+}
+
+#kinda-neat-stats h5{
+    font-family: "Avenir"
 }
 
 @media only screen and (max-width: 1200px) {

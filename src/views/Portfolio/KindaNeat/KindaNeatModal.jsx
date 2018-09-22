@@ -109,11 +109,13 @@ class KindaNeatModal extends React.Component {
                                                 id="classic-modal-slide-description"
                                                 className={classes.modalBody}
                                             >
-                                                <div>
-                                                <h3><strong>{kindaNeatInfo[0].title}</strong></h3>
+                                                <div className="kinda-neat-modal-content modal-body-content" style={{fontFamily: "Avenir"}}>
+                                                    <h3 style={{fontFamily: "inherit"}}><strong>{kindaNeatInfo[0].title}</strong></h3>
+                                                    <h5 style={{fontFamily: "inherit"}}><em>{kindaNeatInfo[0].role}</em></h5>
+
                                                     <hr />
-                                                    <h5>{kindaNeatInfo[0].info}</h5>
-                                                    <h5><strong>Role:</strong> {kindaNeatInfo[0].role}</h5>
+                                                    <h5 style={{fontFamily: "inherit", fontSize: "14px"}}>{kindaNeatInfo[0].info}</h5>
+                                                    {/* <h5><strong>Role:</strong> {kindaNeatInfo[0].role}</h5> */}
 
                                                     
                                                     <p style={{float: "right"}}>

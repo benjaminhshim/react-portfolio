@@ -84,6 +84,13 @@
     margin-top: 10px;
   }
 
+  .kinda-neat-modal-content h5,
+  .kinda-neat-modal-content h3 {
+    font-family: "Avenir";
+  }
+  .kinda-neat-modal-content h3{
+    margin-top: 50px;
+  }
 
   @media only screen and (max-width: 960px) {
     #kinda-neat-socials li::after {
